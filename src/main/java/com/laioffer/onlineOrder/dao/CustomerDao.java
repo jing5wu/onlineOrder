@@ -12,6 +12,7 @@ import org.springframework.stereotype.Repository;
 
 @Repository
 public class CustomerDao {
+
     @Autowired
     private SessionFactory sessionFactory;
 
